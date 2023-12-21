@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import { Button } from "./Button";
 import Image from "next/image";
 
 const GetApp = () => {
@@ -17,16 +17,14 @@ const GetApp = () => {
             <Button
               type="button"
               title="App Store"
-              icon="/apple.svg"
-              variant="btn_white"
-              full
+              size="icon"
+              variant="ghost"
             />
             <Button
               type="button"
               title="Play Store"
-              icon="/android.svg"
-              variant="btn_dark_green_outline"
-              full
+              size="icon"
+              variant="ghost"
             />
           </div>
         </div>
